@@ -21,6 +21,7 @@ This repo is intended for exploratory work in machine learning architecture, mod
 
 ## Structure
 
+```text
 ml-core/
 ├── data/          # Input datasets and loaders
 ├── models/        # Training and inference logic
@@ -28,6 +29,7 @@ ml-core/
 ├── notebooks/     # Prototyping and experiments
 ├── utils/         # Reusable helpers
 └── README.md
+```
 
 ## Status
 
