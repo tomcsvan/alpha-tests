@@ -1,13 +1,10 @@
 # ML Core
-
 Cofounder led machine learning development and experimentation for internal systems. This repository serves as an R&D workspace for prototyping models and infrastructure that may support future production use.
 
 ## Purpose
-
 This repo is intended for exploratory work in machine learning architecture, model design, and evaluation workflows. Components are iteratively developed with long-term system integration in mind.
 
 ## Highlights
-
 - Experimental pipelines for supervised learning
 - Modular model evaluation and tracking
 - Reproducible development workflow
@@ -27,7 +24,6 @@ This repo is intended for exploratory work in machine learning architecture, mod
 - ta, matplotlib, seaborn
 
 ## Structure
-
 ```text
 ml-core/
 ├── data/          # Input datasets and loaders
@@ -42,19 +38,9 @@ ml-core/
 - This is an internal module (NDA protected)
 - No logic orexecution layer included
 
-# Required Python Packages (requirements.txt)
-pandas>=1.5.0
-numpy>=1.21.0
-scikit-learn>=1.0.0
-xgboost>=1.6.0
-ta
-matplotlib
-seaborn
-jupyterlab
-
-
 ## Status
-
 Early-stage development. Internal use only.  
+
+---
 Ownership: [Tom Le], Co founder
 
