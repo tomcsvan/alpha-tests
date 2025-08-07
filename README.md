@@ -11,7 +11,7 @@ This repo is intended for exploratory work in machine learning architecture, mod
 - Research-driven architecture, adaptable to evolving use cases
 
 # Workflow
-1. **Data Ingestion:** Load OHLCV data
+1. **Data Ingestion:** Load data
 2. **Feature Engineering:** Compute technical and statistical indicators
 3. **Labeling:** Define classification target (e.g., `1` if future return > 0)
 4. **Model Training:** Use XGBoost, logistic regression, etc.
@@ -36,7 +36,7 @@ ml-core/
 
 ## Notes
 - This is an internal module (NDA protected)
-- No logic orexecution layer included
+- No logic or execution layer included
 
 ## Status
 Early-stage development. Internal use only.  
