@@ -13,11 +13,18 @@ This repo is intended for exploratory work in machine learning architecture, mod
 - Reproducible development workflow
 - Research-driven architecture, adaptable to evolving use cases
 
-## Tech Stack
+# Workflow
+1. **Data Ingestion:** Load OHLCV data
+2. **Feature Engineering:** Compute technical and statistical indicators
+3. **Labeling:** Define classification target (e.g., `1` if future return > 0)
+4. **Model Training:** Use XGBoost, logistic regression, etc.
+5. **Prediction:** Apply model to unseen data
+6. **Evaluation:** Accuracy, precision, recall, confusion matrix
 
--
--
--
+## Tech Stack
+- Python 3.10+
+- pandas, numpy, scikit-learn, xgboost
+- ta, matplotlib, seaborn
 
 ## Structure
 
@@ -30,6 +37,21 @@ ml-core/
 ├── utils/         # Reusable helpers
 └── README.md
 ```
+
+## Notes
+- This is an internal module (NDA protected)
+- No logic orexecution layer included
+
+# Required Python Packages (requirements.txt)
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+xgboost>=1.6.0
+ta
+matplotlib
+seaborn
+jupyterlab
+
 
 ## Status
 
