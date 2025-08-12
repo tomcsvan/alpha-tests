@@ -43,4 +43,3 @@ Early-stage development. Internal use only.
 
 ---
 Ownership: [Tom Le], Co founder
-
